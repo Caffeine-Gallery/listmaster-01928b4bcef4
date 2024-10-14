@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping List</title>
+    <link href="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.css" rel="stylesheet">
+    <link href="index.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <h1>Shopping List</h1>
+        <div class="add-item">
+            <input type="text" id="newItem" placeholder="Add a new item">
+            <button id="addButton">
+                <i data-feather="plus"></i> Add
+            </button>
+        </div>
+        <ul id="shoppingList"></ul>
+    </div>
+    <div id="loadingSpinner" class="loading-spinner hidden">
+        <i data-feather="loader"></i>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
+    <script type="module" src="index.js"></script>
+</body>
+</html>
